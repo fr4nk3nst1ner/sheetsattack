@@ -52,3 +52,7 @@ python3 sheetsattack.py --get-content --spreadsheet-name MyData --worksheet-name
 
 
 
+## To Do
+
+- [ ] Add functionality to enumerate gdrive or other services, might branch to another project altogether
+
