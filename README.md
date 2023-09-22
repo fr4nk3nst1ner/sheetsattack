@@ -13,7 +13,7 @@ SheetsAttack! is a Python post-exploitation script that enables red teamers to p
    pip3 install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client gspread
    ```
 
-4. Obtain a Google Service Account JSON key file and save it as `key.json`. Follow Google's instructions on how to create a service account and get the JSON key file.
+4. Obtain a Google Service Account JSON key file and save it as `key.json`. Follow Google's instructions on how to create a service account and get the JSON key file if you're wanting to test before live firing on a gig. 
 
 5. Set the `GOOGLE_APPLICATION_CREDENTIALS` environment variable to point to your `key.json` file:
    ```bash
